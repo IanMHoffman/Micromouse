@@ -41,7 +41,7 @@ Current Selections is a:
 Traditionally in micromouse walls have been detected using Inferred LEDs. I am going to be a rebel and use something different. I also would like to experiment with looking just barely over a wall to detect the next row and drastically reduce search time.
 
 Current Selections is a:
-[VL6180X](https://www.st.com/en/imaging-and-photonics-solutions/vl6180x.html)
+### [VL6180X](https://www.st.com/en/imaging-and-photonics-solutions/vl6180x.html)
 
 This is a Time of Flight (ToF) sensor that measures the time it takes light to bounce off a object and come back. Unlike a IR sensor that measures the amount of light reflected. These sensors are much more precise and not prone to the problems that plague current robots that perform differently just by changing the ambient light.
 
