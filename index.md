@@ -19,6 +19,8 @@ Half size micromouse is the newest form of the competition. It was introduced fo
 
 # Hardware Selection
 
+
+
 ## MCU (Microcontroller Unit)
 
 This has been a big topic for me. I really want something to experiment on so I am ultimately looking at something fast and powerful. I would also like it to have plenty of extra pins if I decide to try something crazy. I am also a fan of STM32 boards due to information and support available for them. 
@@ -35,6 +37,8 @@ Current Selections is a:
 * Number of Timers: 20
 
 ## Odometry (Encoders)
+
+
 
 ## Wall Sensors
 
@@ -63,6 +67,15 @@ Effective max_convergence_time depends on readout_averaging_sample_period settin
 
 ## Accelerometer 
 
+
+
 ## Motors
 
+
+
 ## Tires
+
+Right now my tire selection is based solely off of others recommendations. Considerations when selecting a tire are grip, outside diameter (affects odometry), inside diameter, width, and most importantly availability. These require a 19.5 mm rim giving a final diameter of 24 mm with the tire on.
+
+Current Selections is a:
+### [Kyosho Mini-Z](https://rc.kyosho.com/en/rccar/miniz/tire/mzt302-20.html)
