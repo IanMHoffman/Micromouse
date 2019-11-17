@@ -24,7 +24,7 @@ Half size micromouse is the newest form of the competition. It was introduced fo
 This has been a big topic for me. I really want something to experiment on so I am ultimately looking at something fast and powerful. I would also like it to have plenty of extra pins if I decide to try something crazy. I am also a fan of STM32 boards due to information and support available for them. 
 
 Current Selections is a:
-[STM32H743ZGT6](https://www.arrow.com/en/products/stm32h743zgt6/stmicroelectronics)
+### [STM32H743ZGT6](https://www.arrow.com/en/products/stm32h743zgt6/stmicroelectronics)
 
 * Clock Rate: 480 MHz
 * Data Bus Width: 32 bit
