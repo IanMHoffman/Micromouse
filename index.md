@@ -26,13 +26,13 @@ This has been a big topic for me. I really want something to experiment on so I 
 Current Selections is a:
 [STM32H743ZGT6](https://www.arrow.com/en/products/stm32h743zgt6/stmicroelectronics)
 
-Clock Rate: 480 MHz
-Data Bus Width: 32 bit
-Program Memory Size: 1 MB
-RAM Size: 1060 KB
-Interfaces: CAN/I2C/I2S/SPI/UART/USART/USB
-Number of I/Os: 114
-Number of Timers: 20
+* Clock Rate: 480 MHz
+* Data Bus Width: 32 bit
+* Program Memory Size: 1 MB
+* RAM Size: 1060 KB
+* Interfaces: CAN/I2C/I2S/SPI/UART/USART/USB
+* Number of I/Os: 114
+* Number of Timers: 20
 
 ## Odometry (Encoders)
 
@@ -47,14 +47,14 @@ This is a Time of Flight (ToF) sensor that measures the time it takes light to b
 
 In my testing I have been able to run multiple of these sensors, side by side and crossing paths, at once with no interference. They reliably run at a 10 hz sample rate. By tweaking the "READOUT__AVERAGING_SAMPLE_PERIOD" and the "SYSRANGE__MAX_CONVERGENCE_TIME" you can see a 100 hz sample rate.
 
-### readout__averaging_sample_period
+readout__averaging_sample_period:
 
 The internal readout averaging sample period can be adjusted from 0 to 255. Increasing the sampling period decreases noise but also reduces the effective max convergence time and increases power consumption: 
 Effective max convergence time = max convergence time - readout averaging period. 
 Each unit sample period corresponds to around 64.5 µs additional processing time. 
 The recommended setting is 48 which equates to around 4.3 ms.
 
-### sysrange__max_convergence_time
+sysrange__max_convergence_time:
 
 Maximum time to run measurement in Ranging modes. Range 1 - 63 ms (1 code = 1 ms); Measurement aborted when limit reached to aid power reduction. 
 For example, 0x01 = 1ms, 0x0a = 10ms.
