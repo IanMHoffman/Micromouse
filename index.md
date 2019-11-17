@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+# Micromouse Introduction
 
-You can use the [editor on GitHub](https://github.com/IanMHoffman/Micro-Mouse/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a personal project of mine to design, build, and program a new micromouse that will be internationally competitive. I have designed a few for fun using off the shelf components and development boards. This one will be designed on custom PCBs to make better use of space and weight.
 
 ### Markdown
 
