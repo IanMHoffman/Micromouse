@@ -102,7 +102,7 @@ Right now my tire selection is based solely off of others recommendations. Consi
 Current Selections is a:
 ### [Kyosho Mini-Z](https://rc.kyosho.com/en/rccar/miniz/tire/mzt302-20.html)
 
- &NewLine;
+&NewLine;
 
 # Programming Notes
 
