@@ -40,6 +40,10 @@ I would also like to implement faster straight away speeds greater than 1.2 m/s 
 
 To help speed up the fast run and also the search I would like the mouse to take a [diagonal path](https://www.youtube.com/watch?v=HOEtthmJDNw) through a zig zag. On the speed run this allows the mouse to reach a higher top speed for a longer period of time. On the search run it will only take a diagonal if it has already discovered those cells previously.
 
+## Adjustability & Modularity
+
+To make testing of future sensors and hardware the majority of the parts should be designed to make modifications easier. For example adjustable tow for the wheel alignment, and adjustable angles for ToF sensors.
+
 <br/>
 
 # Hardware Selection
