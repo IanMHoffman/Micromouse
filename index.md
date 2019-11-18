@@ -18,8 +18,11 @@ Classic micromouse, often just called micromouse, where the robot has to solve a
 Half size micromouse is the newest form of the competition. It was introduced for the 30th All Japan Micromouse Competition in 2009. Unlike classic micromouse this form has a 32x32 grid of cells. The cell dimensions have also been reduced by half to a 90mm square. The size of a half mouse is limited to a 12.5cm square while still having no height restriction.
 
  
+&NewLine;
 
 # Desired Features
+
+&NewLine;
 
 ## Smooth Turns
 
@@ -33,11 +36,11 @@ Another thing to drastically speed up search time is to speed up through cells t
 
 I would also like to implement faster straight away speeds greater than 1.2 m/s and have curved speeds greater than 0.8 m/s. By having different speeds for different actions I can reduce the time of searching by playing to the robot's mechanical and sensor design strengths.
 
- 
+&NewLine; 
 
 # Hardware Selection
 
- 
+ &NewLine;
 
 ## MCU (Microcontroller Unit)
 
@@ -99,11 +102,11 @@ Right now my tire selection is based solely off of others recommendations. Consi
 Current Selections is a:
 ### [Kyosho Mini-Z](https://rc.kyosho.com/en/rccar/miniz/tire/mzt302-20.html)
 
- 
+ &NewLine;
 
 # Programming Notes
 
-  
+&NewLine;
 
 ## Timers and Watchdogs on the STM32H4
 
