@@ -36,6 +36,10 @@ Another thing to drastically speed up search time is to speed up through cells t
 
 I would also like to implement faster straight away speeds greater than 1.2 m/s and have curved speeds greater than 0.8 m/s. By having different speeds for different actions I can reduce the time of searching by playing to the robot's mechanical and sensor design strengths.
 
+## Take Zig Zags on a Diagonal
+
+To help speed up the fast run and also the search I would like the mouse to take a [diagonal path](https://www.youtube.com/watch?v=HOEtthmJDNw) through a zig zag. On the speed run this allows the mouse to reach a higher top speed for a longer period of time. On the search run it will only take a diagonal if it has already discovered those cells previously.
+
 <br/>
 
 # Hardware Selection
