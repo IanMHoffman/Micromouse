@@ -1,6 +1,6 @@
 # Micromouse Project Introduction
 
-This is a personal project of mine to design, build, and program a new micromouse that will be internationally competitive. I have designed a few for fun using off the shelf components and development boards. This one will be designed on custom PCBs to make better use of space and weight.
+This is a personal project of mine to design, build, and program a new micromouse that will be internationally competitive. I have designed a few for fun using off the shelf components and development boards. This one will be designed on custom PCBs to make better use of space and weight. This section is to document the parts and the thought processes behind it. As the project progresses you will see more and more added with links to the PCBs and code.
 
 * TOC
 {:toc}
@@ -52,18 +52,18 @@ To make testing of future sensors and hardware the majority of the parts should 
 
 ## MCU (Microcontroller Unit)
 
-This has been a big topic for me. I really want something to experiment on so I am ultimately looking at something fast and powerful. I would also like it to have plenty of extra pins if I decide to try something crazy. I am also a fan of STM32 boards due to information and support available for them. 
+This has been a big deciding point for me. This whole project is really because I want something to experiment on. I am also a fan of STM32 boards due to information and support available for them. 
 
 Current Selections is a:
-### [STM32H743ZGT6](https://www.arrow.com/en/products/stm32h743zgt6/stmicroelectronics)
+### [STM32F405RGT6](https://octopart.com/stm32f405rgt6-stmicroelectronics-20570101)
 
-* Clock Rate: 480 MHz
+* Clock Rate: 168 MHz
 * Data Bus Width: 32 bit
 * Program Memory Size: 1 MB
-* RAM Size: 1060 KB
+* RAM Size: 196 KB
 * Interfaces: CAN, I2C, I2S, SPI, UART, USART, USB
-* Number of I/Os: 114
-* Number of Timers: 20
+* Number of I/Os: 51
+* Number of Timers: 14
 
 ## Odometry (Encoders)
 
@@ -100,6 +100,19 @@ Current Selections is a:
 ### [MPU-6500](https://www.mouser.com/ProductDetail/TDK-InvenSense/MPU-6500?qs=u4fy%2FsgLU9PiIOIlWOSPhQ%3D%3D)
 
 ## Motors
+
+## Motor Driver & H-Bridge
+
+No current descision these drivers are currently options
+
+* [UCC27524](https://octopart.com/ucc27524ad-texas+instruments-30488889?r=sp&s=y-hA3xbGTEyqIjXaC12YoA)
+* [DMHC3025LSDQ-13](https://octopart.com/dmhc3025lsdq-13-diodes+inc.-59660263?r=sp&s=r_0XFAhhRVG3wu1rYSjBaA)
+
+* [DRV8833](https://octopart.com/drv8833pwp-texas+instruments-20459004?r=sp&s=X0tRNt6tSgKb4g8VRdLPsQ)
+
+* [TB9051FTG](https://octopart.com/tb9051ftg%2Cel-toshiba-101010889?r=sp&s=ViACiYBRT8-bucQF_MpIag)
+
+* [MC33926PNB](https://octopart.com/mc33926pnb-nxp+semiconductors-70299438?r=sp&s=aqJPv4nCQZy9D6f8rpz6Jg)
 
 
 
